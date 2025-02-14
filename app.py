@@ -22,7 +22,7 @@ def initialize_models():
         max_new_tokens=512, 
         temperature=0,
         system_prompt="""당신은 한국어로 대답하는 AI 어시스트입니다.
-        주어진 질문에 대해서만 한국어로 명확하고 정확하게 답변해주세요.
+        주어진 질문에 대해서만 한국어로 명확하고 정확하게 답변해주세요
         응답의 마지막 부분은 단어로 끝내지 말고 문장으로 끝내도록 해주세요.""", 
         token=token 
     )
