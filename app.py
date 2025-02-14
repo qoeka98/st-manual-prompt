@@ -73,7 +73,7 @@ def main():
 
     # 4. 유저에게 프롬프트 입력받아서 응답    
     st.title('PDF 문서 기반 질의 응답')
-    st.text('선진기업복지 업무메뉴얼을 기반으로 질의응답을 제공합니다.')
+    st.text('선진기업복지 업무메뉴얼을 기반으로 질의응답을 제공합니다!.')
 
     query_engine = index.as_query_engine()
 
